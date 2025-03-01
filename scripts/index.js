@@ -12,8 +12,8 @@ function getMonthDayString() {
   return monthDayString;
 }
 
-// fetch('../data/birthday_json.json') // Fetch JSON data
-fetch('https://ankush-bhardwaj-280393.github.io/event_reminder/data/birthday_json.json') // Fetch JSON data
+fetch('../data/birthday_json.json') // Fetch JSON data
+// fetch('https://ankush-bhardwaj-280393.github.io/event_reminder/data/birthday_json.json') // Fetch JSON data
   .then(response => response.json()) // Convert response to JSON
   .then(birthdays_json => {
       // Filter users based on birthday
@@ -38,7 +38,7 @@ fetch('https://ankush-bhardwaj-280393.github.io/event_reminder/data/birthday_jso
   .catch(error => console.error('Error fetching data:', error));
 
 
-fetch('https://ankush-bhardwaj-280393.github.io/event_reminder/data/anniversary_json.json') // Fetch JSON data
+fetch('../data/anniversary_json.json') // Fetch JSON data
   .then(response => response.json()) // Convert response to JSON
   .then(anniversary_json => {
       // Filter users based on birthday
