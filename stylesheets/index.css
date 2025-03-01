@@ -1,0 +1,22 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+h1{
+    text-align: center;
+}
+
+#birthdays{
+    width: 49%;
+    /* border: solid 1px black; */
+    float: left;
+    text-align: center;
+}
+
+#anniversaries{
+    width: 49%;
+    /* border: solid 1px black; */
+    float: right;
+    text-align: center;
+}
