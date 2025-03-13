@@ -27,9 +27,15 @@
     <div id="index_today_events">
         <div id="index_birthdays">
             <h4>Birthday(s)</h4>
+            {% for birthday in birthday_today %}
+                {{birthday}}
+            {% endfor %}
         </div>
         <div id="index_anniversaries">
             <h4>Anniversaries(s)</h4>
+            {% for anniversary in anniversary_today %}
+                {{anniversary}}
+            {% endfor %}
         </div>
     </div>
 </div>
